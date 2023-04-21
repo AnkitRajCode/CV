@@ -1,0 +1,196 @@
+%-------------------------
+% Resume in Latex
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{ #2 \vspace{-2pt}}
+  }
+}
+
+% Just in case someone needs a heading that does not need to be in a list
+\newcommand{\resumeHeading}[4]{
+    \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://github.com/AnkitRajCode}{\Huge Ankit Raj}} &  \href{https://github.com/AnkitRajCode}{github.com/ankitrajcode}\\
+  \textbf{Purnea, Bihar} & \href{https://www.linkedin.com/in/ankitrajcode}{linkedin.com/in/ankitrajcode} \\
+  Ph. : \href{tel:+919661134518}{+91 9661134518} & Email : \href{rajankit432@gmail.com}{rajankit432@gmail.com} \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {\href{https://kiit.ac.in/}{Kalinga Institute of Industrial Technology}}{Bhubaneshwar, India}
+      {BTech in Information Technology;  \href{}{CGPA: 8.95}}{July. 2019 -- June. 2023}
+  \resumeSubHeadingListEnd
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+	\small{\item{
+		\textbf{Coursework}{: Data Structure \&\ Algorithms, OOPs Concept, Problem Solving, DBMS, SDLC.} \\
+ 	\textbf{Languages/Frameworks}{: C/C++, Java, HTML/CSS, JavaScript, NodeJs, ExpressJs, ReactJs, NextJs.} \\
+ 		\textbf{Database}{: MongoDB, Firebase}\\
+ 		\textbf{Tools}{: Git, Linux, Visual Studio Code, Eclipse, Figma.}\\
+	}}
+ \end{itemize}
+ \vspace{-16pt}
+ 
+ %
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+  
+    \resumeSubheading
+      {\href{https://www.linkedin.com/company/opentext/}{OpenText}}{Bengaluru, India}
+      {Intern}{Jan. 2023 - Present}
+      \resumeItemListStart
+        \resumeItem{}{Utilized \textbf{Agile} methodology to \textbf{Develop} monthly reports for OCC team Using a Spring Boot application.}        
+        \resumeItem{}{Implemented \textbf{REST API} calls to retrieve necessary data for report generation.}
+        \resumeItem{}{Automated the previously manual process of counting data across multiple Excel files and individual profiles, resulting in a \textbf{15 - 20 hr/week reduction} in debugging and setup time.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {\href{https://www.linkedin.com/company/epikindifi/}{EPIKInDiFi}}{Bhubaneswar, India}
+      {Intern Trainee}{Jan. 2022 - Jun. 2022}
+      \resumeItemListStart
+        \resumeItem{}{Gained \textbf{hands-on} experience in \textbf{ReactJS, JavaScript, EDA, and Linux} through training and mentorship.}
+        \resumeItem{}{Developed baseline knowledge of software, applications, and technical processes within creating mobile applications, and website functionality using \textbf{ReactJs} and \textbf{JavaScript}.}
+        \resumeItem{}{Utilized EDA tools to improve efficiency and gained experience working with \textbf{Linux} operating systems.}
+      \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+     \resumeSubheading{\href{https://www.codedynamics.in/}{Code Dynamics}}{{\href{https://github.com/AnkitRajCode/CodeDynamics}{- Source Code}}}{Figma, NextJs, Tailwind CSS, Strapi (CMS), GIT, and hosted on Vercel (.in domain)}{}
+      \resumeItemListStart
+        \resumeItem{}{Code Dynamics project provides DSA solutions for major platforms, including 30K+ solutions, 50+ RRS, and optimized solutions for all programming languages.}
+        \resumeItem{}{The project includes a Dynamics sheet for the DSA community and has 150+ users during pre-launch.}
+        \resumeItem{}{The web app is dynamic and being made PWA-compatible for easy access.}
+    \resumeItemListEnd
+    
+    \resumeSubheading{\href{https://nextgenui.in}{Next Gen UI}}{{\href{https://github.com/AnkitRajCode/Component-UI}{- Source Code}}}{Dynamic and Intuitive Component Library}{}
+      \resumeItemListStart
+        \resumeItem{}{Created a dynamic and intuitive component library with a vast collection of web components (navbar, footer, cards, buttons, etc.) using NextJs, Tailwind CSS, and Firebase.}
+        \resumeItem{}{Built the library with a focus on simplicity and ease of use by providing code in HTML and React and pursuing the goal of converting it into an NPM package.}
+        \resumeItem{}{Included \textbf{dynamic routing} in the library to enable seamless navigation between the different components.}
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------Achievements-----------
+\section{Achievements}
+%  \begin{itemize}[leftmargin=0.15in, label={}]
+% 	\resumeItemListStart
+ \resumeSubHeadingListStart
+    	\resumeItem{}{I was Web Dev. Lead at \href{https://gfgkiit.netlify.app/}{\bf GeeksforGeeks KIIT}}
+    	
+    	\resumeItem{}{Earned \textbf{5*} Badge in \textbf{C, C++ and DSA},  4* in \textbf{Python}, and completed \textbf{30 Days of Code} on  {\href{https://www.hackerrank.com/satyajeetramnit1?hr_r=1}{\bf Hackerrank.}}}
+%   	\resumeItemListEnd
+ \resumeSubHeadingListEnd
+%  \end{itemize}
+%  \vspace{-16pt}
+ %
+ 
+
+%-----------Certifications & Profile Links-----------
+\section{Certifications and Profile Links}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+	\small{\item{
+		\href{https://www.hackerrank.com/certificates/8c1ecb8ffd40}{\textbf{Problem Solving, NodeJs, ReactJs, SQL, CSS and Python} (Hackerrank Certifications)} \\
+ 	    \href{https://www.udemy.com/certificate/UC-ccf367dd-b692-405e-94c2-b67eeebd693d/}{\textbf{Linux Command Line} (Udemy)} \\
+      \href{https://drive.google.com/file/d/16q_hy_uXJ3_Wx2DnA3NZALC5zqLaSTZs/view}{\textbf{Full Stack MERN Bootcamp} (LearnCodeOnline)} \\
+ 	    \href{https://drive.google.com/file/d/1TTGRI2AzBL_3gYKKtnOnh9yId2DWm_5P/view}{\textbf{GeeksforGeeks KIIT Lead}{ Dept. Web Development}} \\
+ 	    \  \ \\
+ 	    \textbf{Profile Links :}{ $|$ \href{https://leetcode.com/AnkitRajCodes/}{{Leetcode}} $|$ \href{https://www.hackerrank.com/AnkitRajCodes}{{Hackerrank}} $|$ \href{https://github.com/AnkitRajCode}{{Github}} $|$ \href{https://ankitraj.pages.dev}{{Portfolio}} $|$} \\
+	}}
+ \end{itemize}
+ \vspace{-16pt}
+ 
+%-------------------------------------------
+\end{document}

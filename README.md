@@ -16,4 +16,4 @@ Using [Overleaf](https://www.overleaf.com/).
 
 ## Preview
 
-![Resume Screenshot](/cv_preview.png)# CV
+![Resume Screenshot](/Preview.png)
